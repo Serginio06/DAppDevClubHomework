@@ -1,0 +1,40 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+
+# *.css
+build
+
+logs/
+*.csv
+*.log
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+yarn-debug.log*
+yarn-error.log*
+
+#test local DBs
+mongodb/
+
+#other
+_old/
+*~
+._*
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
+links.txt
+._.gitignore
+.idea/
